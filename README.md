@@ -8,7 +8,7 @@ The study has two aims: estimate how much of the between-country variation in sc
 
 | File | What it is |
 | --- | --- |
-| `mental_health_depression_data.csv` | The dataset as analyzed: 5,516 country-years, 14 columns, GBD estimates compiled by Our World in Data and redistributed on Kaggle |
+| `mental_health_depression_data.csv` | The dataset as analyzed: 5,516 country-years, 14 columns, GBD estimates compiled by Our World in Data and redistributed on data.world (vizzup; retired July 2026) and Kaggle |
 | `analysis.py` | All model fitting and evaluation (five designs, permutation importance, bootstrap, variance decomposition) |
 | `figures.py` | Produces the four manuscript figures from the results |
 | `results_all_designs.csv` | R², MAE, RMSE and MAPE for every model under every design |
