@@ -1,0 +1,71 @@
+{
+  "n_rows_raw": 5516,
+  "n_rows": 5376,
+  "n_countries": 192,
+  "years": [
+    1990,
+    2017
+  ],
+  "dropped_entities": [
+    "Australasia",
+    "Caribbean",
+    "Macedonia",
+    "Montenegro",
+    "Swaziland"
+  ],
+  "target_mean": 0.2082296062127976,
+  "target_sd": 0.04219987549558512,
+  "target_min": 0.146902,
+  "target_max": 0.37511,
+  "bootstrap_ci_R2_C": {
+    "Linear Regression": [
+      0.47706917458255793,
+      0.7178573905031725
+    ],
+    "Ridge": [
+      0.4774319380196902,
+      0.7179432631325999
+    ],
+    "k-NN (k=10)": [
+      0.3492064362378982,
+      0.6892517062156885
+    ],
+    "SVR (RBF, scaled)": [
+      0.4010588384736677,
+      0.6660552343383961
+    ],
+    "Decision Tree": [
+      0.38197105494881123,
+      0.8154751981541888
+    ],
+    "Random Forest": [
+      0.4023828616366078,
+      0.8299595509870721
+    ],
+    "Gradient Boosting": [
+      0.5909042366640893,
+      0.8398882653355801
+    ]
+  },
+  "between_country_spearman": {
+    "Bipolar disorder (%)": 0.229,
+    "Eating disorders (%)": 0.621,
+    "Anxiety disorders (%)": 0.394,
+    "Drug use disorders (%)": 0.507,
+    "Depression (%)": -0.105,
+    "Alcohol use disorders (%)": -0.034,
+    "Depression, male (%)": -0.388,
+    "Depression, female (%)": -0.376,
+    "log_population": -0.057
+  },
+  "within_country_pearson": {
+    "Bipolar disorder (%)": 0.528,
+    "Eating disorders (%)": 0.621,
+    "Anxiety disorders (%)": 0.237,
+    "Drug use disorders (%)": 0.224,
+    "Depression (%)": -0.168,
+    "Alcohol use disorders (%)": 0.181
+  },
+  "share_variance_between_country": 0.9954592242453737,
+  "mean_within_country_range": 0.007129677083333334
+}
